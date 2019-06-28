@@ -1,0 +1,202 @@
+:root {
+    --bgc: #216471;
+    --jumbo: #0B5563;
+    --cardbg: #30343F;
+    --navbg: #30343F;
+    --background: #37737F;
+    --textcolor: #FAFAFF;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 400px;
+    width: 1200px;
+    background: #000;
+    box-shadow: 0px 25px 30px rgba(0, 0, 0, .5);
+    display: flex;
+}
+
+.content {
+    width: calc(50% - 50px);
+    height: 100%;
+    background: #000;
+    box-sizing: border-box;
+}
+
+.imageBox {
+    width: calc(50% + 50px);
+    height: 100%;
+    background: #f00;
+    box-sizing: border-box;
+    border-left: 100px solid #000;
+    border-bottom: 400px solid transparent;
+    background: url('https://silvertonmountain.com/wp-content/uploads/2015/08/unguided-page-1-1024x471.jpg');
+    background-repeat: no-repeat;
+}
+
+.size {
+    width: auto;
+    height: 100%;
+}
+
+.bckim {
+    background: url('https://silvertonmountain.com/wp-content/uploads/2015/08/unguided-page-1-1024x471.jpg');
+}
+
+.logosize {
+    width: 150px;
+    height: 75px;
+}
+
+div.carousel-item,
+img.work {
+    width: 100%;
+    /* height: auto; */
+    height: auto;
+    max-height: 78rem;
+}
+
+.textshadow {
+    text-shadow: 2px 2px 6px #242124;
+    font-size: 1000%;
+    width: 50%;
+    margin: auto;
+
+}
+
+.navbg {
+    background-color: #30343F
+}
+
+.jumbobg {
+    background-color: #0B5563;
+    color: #242124;
+}
+
+.mainbg {
+    background-color: #216471;
+}
+
+.footbg {
+    background-color: #30343F;
+    color: #E2E2E2;
+}
+
+.imgsize {
+    /* width: 817px; */
+    height: 458px;
+}
+
+.carouselimg {
+    width: auto;
+    height: auto;
+}
+
+.colbg {
+    background-color: #37737F
+}
+
+.cih {
+    height: 78rem;
+}
+
+.mtjumbg {
+    background-color: #007EA7;
+    /* color: #E2E2E2 */
+}
+
+.mtbg {
+    background-color: #3B474C;
+    color: #E2E2E2;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+}
+
+div.card-carousel {
+    height: 45rem;
+}
+
+div.card {
+    height: 40rem;
+}
+
+main {
+    background-color: #216471;
+    color: #FAFAFF;
+
+}
+
+.jumbotron {
+    background-color: var(--jumbo);
+    color: var(--textcolor);
+}
+
+.jumbocolor {
+    background-color: #0B5563 !important;
+}
+
+/* div.card-body {
+    background-color: (var(--cardbg))
+} */
+.nav-item {
+    float: right;
+    padding: .5rem;
+    color: var(--textcolor) !important;
+}
+
+.btncol {
+    background-color: #0B5563 color
+}
+
+#special {
+    color: ghostwhite
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.alignright {
+    padding-left: 10rem !important;
+}
+
+.c {
+    font-size: 800%;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #FAFAFF !important;
+}
+
+.form-control {
+    color: var(--textcolor) !important;
+    background-color: var(--cardbg) !important;
+}
+
+.textcolor {
+    color: var(--textcolor) !important;
+}
+
+.lead {
+    color: var(--textcolor);
+    margin-bottom: 0rem;
+}
+
+a.nav-link:hover {
+    color: #6b757d;
+}
